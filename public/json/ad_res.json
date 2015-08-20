@@ -1,0 +1,1853 @@
+{
+  "ad_repository":[
+    {
+      "ad_id":"ad_001",
+      "ad_url":"res/ad/BMW-advert-A4.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"BMW",
+      "promotion_device":false,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Male",
+        "age_range":{
+          "min_age":18,
+          "max_age":45
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.3,
+            "max_val":0.7
+          },
+          "agreeableness": {
+            "min_val":0.1,
+            "max_val":0.4
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1.0
+          },
+          "conscientiousness": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.5,
+            "max_val":0.8
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure",
+        "keyword":"auto,racing"
+      }
+    },
+    {
+      "ad_id":"ad_002",
+      "ad_url":"res/ad/CEWtOAOVAAEZdgu.png-large.png",
+      "ad_target":"",
+      "ad_category":"food",
+      "ad_brand":"Ferrero",
+      "promotion_device":false,
+      "ad_color":"yellow",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":3,
+          "max_age":25
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":0.5
+          },
+          "openness": {
+            "min_val":0.6,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Animation,Comedy,Drama,Family",
+        "keyword":"cartoon,fun,minions"
+      }
+    },
+    {
+      "ad_id":"ad_003",
+      "ad_url":"res/ad/disney-princess.png",
+      "ad_target":"",
+      "ad_category":"toys",
+      "ad_brand":"Disney",
+      "promotion_device":false,
+      "ad_color":"pink",
+      "ad_target_user":{
+        "gender":"Female",
+        "age_range":{
+          "min_age":3,
+          "max_age":18
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.1,
+            "max_val":0.4
+          },
+          "openness": {
+            "min_val":0.1,
+            "max_val":0.6
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Animation,Comedy,Drama,Family",
+        "keyword":"cartoon,disney,cinderella"
+      }
+    },
+    {
+      "ad_id":"ad_004",
+      "ad_url":"res/ad/fiat-500-marketing-launch-lead.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"FIAT",
+      "promotion_device":false,
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":30
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.3,
+            "max_val":0.7
+          },
+          "openness": {
+            "min_val":0.8,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Crime",
+        "keyword":"auto,racing"
+      }
+    },
+    {
+      "ad_id":"ad_005",
+      "ad_url":"res/ad/Funko Iron Man 3 Cantivities.jpg",
+      "ad_target":"",
+      "ad_category":"toys",
+      "ad_brand":"idlehands",
+      "promotion_device":false,
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":3,
+          "max_age":18
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.4,
+            "max_val":0.7
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Animation",
+        "keyword":"hero,cartoon,fun"
+      }
+    },
+    {
+      "ad_id":"ad_006",
+      "ad_url":"res/ad/gelish-cinderella.jpg",
+      "ad_target":"",
+      "ad_category":"cosmetic",
+      "ad_brand":"Disney",
+      "promotion_device":false,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Female",
+        "age_range":{
+          "min_age":12,
+          "max_age":30
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":0.5
+          },
+          "openness": {
+            "min_val":0.6,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Animation,Comedy,Family",
+        "keyword":"disney,cinderella"
+      }
+    },
+    {
+      "ad_id":"ad_007",
+      "ad_url":"res/ad/Global-launch-campaign-for-BMW-i8-01.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"BMW",
+      "promotion_device":false,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "extraversion": {
+            "min_val":0.8,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.8,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Crime,Thriller",
+        "keyword":"fight,auto,fury,racing"
+      }
+    },
+    {
+      "ad_id":"ad_008",
+      "ad_url":"res/ad/Hasbro_toys_6.jpg",
+      "ad_target":"",
+      "ad_category":"toys",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":3,
+          "max_age":16
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.8,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.2,
+            "max_val":0.6
+          },
+          "openness": {
+            "min_val":0.5,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Animation",
+        "keyword":"hero,cartoon,disney"
+      }
+    },
+    {
+      "ad_id":"ad_009",
+      "ad_url":"res/ad/MINI.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"MINI",
+      "promotion_device":false,
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Female",
+        "age_range":{
+          "min_age":18,
+          "max_age":45
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.2,
+            "max_val":0.8
+          },
+          "extraversion": {
+            "min_val":0.8,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.2,
+            "max_val":0.8
+          },
+          "openness": {
+            "min_val":0.7,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Crime,Thriller",
+        "keyword":"fight,auto,racing"
+      }
+    },
+    {
+      "ad_id":"ad_010",
+      "ad_url":"res/ad/mini-may-dag-homepage.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"MINI",
+      "promotion_device":"true",
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Female",
+        "age_range":{
+          "min_age":18,
+          "max_age":45
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":0.5
+          },
+          "openness": {
+            "min_val":0.6,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Animation,Family",
+        "keyword":"auto,racing"
+      }
+    },
+    {
+      "ad_id":"ad_011",
+      "ad_url":"res/ad/morgantaylor-1.jpg",
+      "ad_target":"",
+      "ad_category":"cosmetic",
+      "ad_brand":"Disney",
+      "promotion_device":false,
+      "ad_color":"brown",
+      "ad_target_user":{
+        "gender":"Female",
+        "age_range":{
+          "min_age":12,
+          "max_age":35
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "agreeableness": {
+            "min_val":0.2,
+            "max_val":0.6
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":0.8
+          },
+          "openness": {
+            "min_val":0.6,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Animation,Comedy,Drama,Family",
+        "keyword":"cartoon,disney,cinderella"
+      }
+    },
+    {
+      "ad_id":"ad_012",
+      "ad_url":"res/ad/original_273958_Pk9901ywCqqaom5uz1Fz5vHxL.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"BMW",
+      "promotion_device":false,
+      "ad_color":"black",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":30,
+          "max_age":65
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.8,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "extraversion": {
+            "min_val":0.8,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.7,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Crime,Thriller",
+        "keyword":"auto,fury,hero,racing"
+      }
+    },
+    {
+      "ad_id":"ad_013",
+      "ad_url":"res/ad/WOB15086CChairMRectDynKW.gif",
+      "ad_target":"",
+      "ad_category":"furniture",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"brown",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":30,
+          "max_age":65
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":0.4
+          },
+          "agreeableness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.4,
+            "max_val":0.8
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Animation,Comedy,Drama,Family",
+        "keyword":"home,decoration,family"
+      }
+    },
+    {
+      "ad_id":"ad_014",
+      "ad_url":"res/ad/WOB15086CChairMRectDynLW.gif",
+      "ad_target":"",
+      "ad_category":"furniture",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"brown",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":20,
+          "max_age":45
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":0.4
+          },
+          "agreeableness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.4,
+            "max_val":0.8
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Animation,Comedy,Drama,Family",
+        "keyword":"home,decoration,family"
+      }
+    },
+    {
+      "ad_id":"ad_015",
+      "ad_url":"res/ad/WOB15212MRectVolley.gif",
+      "ad_target":"",
+      "ad_category":"sports",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":12,
+          "max_age":40
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Family",
+        "keyword":"sport"
+      }
+    },
+    {
+      "ad_id":"ad_016",
+      "ad_url":"res/ad/WOB15243WijnMRectDyn.gif",
+      "ad_target":"",
+      "ad_category":"drinks",
+      "ad_brand":"",
+      "promotion_device":"true",
+      "ad_color":"black",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":20,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.5,
+            "max_val":0.9
+          },
+          "agreeableness": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Romance,Animation,Comedy,Drama,Family",
+        "keyword":"fury,hero,fun"
+      }
+    },
+    {
+      "ad_id":"ad_017",
+      "ad_url":"res/ad/WOB15295MRSmartCitiesN.gif",
+      "ad_target":"",
+      "ad_category":"real estate",
+      "ad_brand":"",
+      "promotion_device":"true",
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":30,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.8,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Family",
+        "keyword":"city,real estate"
+      }
+    },
+    {
+      "ad_id":"ad_018",
+      "ad_url":"res/ad/WOB15315_WKBlack_MR.gif",
+      "ad_target":"",
+      "ad_category":"furniture",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "agreeableness": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.2,
+            "max_val":0.8
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Family",
+        "keyword":"decoration,home"
+      }
+    },
+    {
+      "ad_id":"ad_019",
+      "ad_url":"res/ad/WOB15327_imu_herfst.gif",
+      "ad_target":"",
+      "ad_category":"kitchen",
+      "ad_brand":"nest",
+      "promotion_device":false,
+      "ad_color":"yellow",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.5,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Animation,Comedy,Drama,Family",
+        "keyword":"decoration,food,cooking"
+      }
+    },
+    {
+      "ad_id":"ad_020",
+      "ad_url":"res/ad/WOB15327_imu_herfstF.gif",
+      "ad_target":"",
+      "ad_category":"kitchen",
+      "ad_brand":"nest",
+      "promotion_device":false,
+      "ad_color":"yellow",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.5,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Animation,Comedy,Drama,Family",
+        "keyword":"decoration,food,cooking"
+      }
+    },
+    {
+      "ad_id":"ad_021",
+      "ad_url":"res/ad/BMW-NEW-YEAR-2013-10.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"BMW",
+      "promotion_device":false,
+      "ad_color":"gray",
+      "ad_target_user":{
+        "gender":"Male",
+        "age_range":{
+          "min_age":18,
+          "max_age":45
+        },
+        "language":"Mandarin Chinese",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.4,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Thriller",
+        "keyword":"fight,auto,fury,hero,racing"
+      }
+    },
+    {
+      "ad_id":"ad_022",
+      "ad_url":"res/ad/ZMG-2013_McDonalds.jpg",
+      "ad_target":"",
+      "ad_category":"food",
+      "ad_brand":"MacDonald",
+      "promotion_device":false,
+      "ad_color":"yellow",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":6,
+          "max_age":65
+        },
+        "language":"German",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":0.6
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Comedy,Drama,Family",
+        "keyword":"cartoon,food,hungry"
+      }
+    },
+    {
+      "ad_id":"ad_023",
+      "ad_url":"res/ad/disney_world_royal_plaza_vacation_499.jpg",
+      "ad_target":"",
+      "ad_category":"travel",
+      "ad_brand":"Disneyland",
+      "promotion_device":true,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":30,
+          "max_age":65
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.8,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.4,
+            "max_val":0.7
+          },
+          "openness": {
+            "min_val":0.6,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Comedy,Drama,Family",
+        "keyword":"disney,cinderella"
+      }
+    },
+    {
+      "ad_id":"ad_024",
+      "ad_url":"res/ad/advertentie-Molenaar-Fiesta.jpg",
+      "ad_target":"",
+      "ad_category":"auto",
+      "ad_brand":"ford",
+      "promotion_device":true,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":35
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.3,
+            "max_val":0.7
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.5,
+            "max_val":0.7
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Action,Adventure,Science Fiction,Animation",
+        "keyword":"fight,auto,racing"
+      }
+    },
+    {
+      "ad_id":"ad_025",
+      "ad_url":"res/ad/The-Burger-780x515.jpg",
+      "ad_target":"",
+      "ad_category":"food",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"yellow",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":55
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.5,
+            "max_val":0.8
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.1,
+            "max_val":0.5
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Science Fiction,Animation,Horror,Comedy,Documentary,Western",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_026",
+      "ad_url":"res/ad/afficheBAad_copie.jpg",
+      "ad_target":"",
+      "ad_category":"food",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":55
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.2,
+            "max_val":0.8
+          },
+          "extraversion": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.1,
+            "max_val":0.5
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Science Fiction,Drama,Animation,Horror,Comedy,Documentary,Family,Western",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_027",
+      "ad_url":"res/ad/12913947af_f.jpg",
+      "ad_target":"",
+      "ad_category":"food",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":55
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":0.8
+          },
+          "agreeableness": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.7,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Science Fiction,Drama,Animation,Horror,Comedy,Documentary,Family,Foreign",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_028",
+      "ad_url":"res/ad/Anzeige-Chanel-03-2012.jpg",
+      "ad_target":"",
+      "ad_category":"cosmetic",
+      "ad_brand":"Chanel",
+      "promotion_device":false,
+      "ad_color":"yellow",
+      "ad_target_user":{
+        "gender":"Female",
+        "age_range":{
+          "min_age":23,
+          "max_age":55
+        },
+        "language":"German",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.4,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Fantasy,Drama,Animation,Music,Mystery,Comedy,Documentary,Family,TV Movie",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_029",
+      "ad_url":"res/ad/intro-visual.jpg",
+      "ad_target":"",
+      "ad_category":"cosmetic",
+      "ad_brand":"LOreal",
+      "promotion_device":false,
+      "ad_color":"black",
+      "ad_target_user":{
+        "gender":"Female",
+        "age_range":{
+          "min_age":30,
+          "max_age":55
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.7,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":0.8
+          },
+          "extraversion": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.3,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Fantasy,Drama,Animation,Music,Mystery,Comedy,Documentary,Family,TV Movie,Thriller",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_030",
+      "ad_url":"res/ad/basic-fit-magazine.jpg",
+      "ad_target":"",
+      "ad_category":"sport",
+      "ad_brand":"",
+      "promotion_device":true,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":45
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.2,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Comedy,Documentary,Crime,War,Thriller",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_031",
+      "ad_url":"res/ad/pub_activite_yoga_reseautage.PNG",
+      "ad_target":"",
+      "ad_category":"sport",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":45
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.2,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.6,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Comedy,Documentary,History,Music,Mystery",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_032",
+      "ad_url":"res/ad/resolve.jpeg",
+      "ad_target":"",
+      "ad_category":"drink",
+      "ad_brand":"cocacola",
+      "promotion_device":false,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":0.6
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Fantasy,War,History,Music,Mystery",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_033",
+      "ad_url":"res/ad/duval.jpeg",
+      "ad_target":"",
+      "ad_category":"drink",
+      "ad_brand":"duval",
+      "promotion_device":false,
+      "ad_color":"yellow",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":0.8
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":0.5
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Fantasy,War,Romance,Music,Mystery,Horror",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_034",
+      "ad_url":"res/ad/breve44853-0.JPG",
+      "ad_target":"",
+      "ad_category":"drink",
+      "ad_brand":"starbucks",
+      "promotion_device":false,
+      "ad_color":"black",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":18,
+          "max_age":65
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":0.6
+          },
+          "agreeableness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":0.6
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Fantasy,War,Romance,Music,Western,Horror,TV Movie",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_035",
+      "ad_url":"res/ad/le-nobel2.png",
+      "ad_target":"",
+      "ad_category":"real estate",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.4,
+            "max_val":0.8
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Family,History,War,Music,Western,TV Movie",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_036",
+      "ad_url":"res/ad/magazine Logic Immo Oost-West-2.png",
+      "ad_target":"",
+      "ad_category":"real estate",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.4,
+            "max_val":0.8
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Family,History,War,Music,Western,TV Movie",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_037",
+      "ad_url":"res/ad/magazine Logic Immo Oost-West-2.png",
+      "ad_target":"",
+      "ad_category":"real estate",
+      "ad_brand":"",
+      "promotion_device":false,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.4,
+            "max_val":0.8
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Family,History,War,Music,Western,TV Movie",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_038",
+      "ad_url":"res/ad/68901340746888625.jpg",
+      "ad_target":"",
+      "ad_category":"kitchen",
+      "ad_brand":"",
+      "promotion_device":true,
+      "ad_color":"white",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":35,
+          "max_age":65
+        },
+        "language":"Mandarin Chinese",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.5,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Romance,Family,History,Music,Western,TV Movie",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_039",
+      "ad_url":"res/ad/004_Jiba_Abriposters_1185x1750_WT-2.jpg",
+      "ad_target":"",
+      "ad_category":"travel",
+      "ad_brand":"",
+      "promotion_device":true,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":25,
+          "max_age":65
+        },
+        "language":"Dutch",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":0.8
+          },
+          "openness": {
+            "min_val":0,
+            "max_val":0.6
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Family,History,Romance,Music,Western,TV Movie,Mystery",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_040",
+      "ad_url":"res/ad/7477.jpg",
+      "ad_target":"",
+      "ad_category":"travel",
+      "ad_brand":"",
+      "promotion_device":true,
+      "ad_color":"red",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":25,
+          "max_age":65
+        },
+        "language":"English",
+        "personality":{
+          "emotion_range": {
+            "min_val":0,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.8,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Family,History,Romance,Music,Action,Mystery,Fantasy,Drama",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id":"ad_041",
+      "ad_url":"res/ad/BN21807TT-Samsung-Galaxy-S6-et-S6-Edge.jpg",
+      "ad_target":"",
+      "ad_category":"electronics",
+      "ad_brand":"samsung",
+      "promotion_device":false,
+      "ad_color":"blue",
+      "ad_target_user":{
+        "gender":"Unisex",
+        "age_range":{
+          "min_age":25,
+          "max_age":45
+        },
+        "language":"French",
+        "personality":{
+          "emotion_range": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "agreeableness": {
+            "min_val":0.4,
+            "max_val":1
+          },
+          "extraversion": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "conscientiousness": {
+            "min_val":0.6,
+            "max_val":1
+          },
+          "openness": {
+            "min_val":0.8,
+            "max_val":1
+          }
+        }
+      },
+      "ad_target_movie":{
+        "type":"Adventure,Science Fiction,Thriller,Fantasy,Music,Action",
+        "keyword":""
+      }
+    },
+    {
+      "ad_id": "ad_042",
+      "ad_url": "res/ad/huawei.gif",
+      "ad_target": "",
+      "ad_category": "electronics",
+      "ad_brand": "huawei",
+      "promotion_device": true,
+      "ad_color": "white",
+      "ad_target_user": {
+        "gender": "Unisex",
+        "age_range": {
+          "min_age": 18,
+          "max_age": 30
+        },
+        "language": "Dutch",
+        "personality": {
+          "emotion_range": {
+            "min_val": 0,
+            "max_val": 1
+          },
+          "agreeableness": {
+            "min_val": 0.2,
+            "max_val": 1
+          },
+          "extraversion": {
+            "min_val": 0.6,
+            "max_val": 1
+          },
+          "conscientiousness": {
+            "min_val": 0,
+            "max_val": 1
+          },
+          "openness": {
+            "min_val": 0.8,
+            "max_val": 1
+          }
+        }
+      },
+      "ad_target_movie": {
+        "type": "Adventure,Science Fiction,Fantasy,Music",
+        "keyword": ""
+      }
+    },
+    {
+      "ad_id": "ad_043",
+      "ad_url": "res/ad/apple_Watch_landing.jpg",
+      "ad_target": "",
+      "ad_category": "electronics",
+      "ad_brand": "apple",
+      "promotion_device": false,
+      "ad_color": "black",
+      "ad_target_user": {
+        "gender": "Unisex",
+        "age_range": {
+          "min_age": 18,
+          "max_age": 45
+        },
+        "language": "French",
+        "personality": {
+          "emotion_range": {
+            "min_val": 0,
+            "max_val": 1
+          },
+          "agreeableness": {
+            "min_val": 0.2,
+            "max_val": 1
+          },
+          "extraversion": {
+            "min_val": 0.6,
+            "max_val": 1
+          },
+          "conscientiousness": {
+            "min_val": 0,
+            "max_val": 1
+          },
+          "openness": {
+            "min_val": 0.8,
+            "max_val": 1
+          }
+        }
+      },
+      "ad_target_movie": {
+        "type": "Adventure,Science Fiction,Fantasy,Music",
+        "keyword": ""
+      }
+    }
+  ]
+}

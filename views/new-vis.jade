@@ -1,0 +1,95 @@
+//
+   Created by jin on 15/07/15.
+
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title PARIS Ads Demo
+    body
+        div.page-header
+            div.container-fluid
+                div.row
+                    div.col-md-10
+                        a.home(href="/")
+                            img.logo(src='images/logo.png')
+                        span &nbsp&nbspAds Demo
+                    div.col-md-2
+                        a.btn.btn-primary(href='/logout')
+                            span.fa.fa-facebook
+                                |  Logout
+        div.container-fluid
+            div.col-md-7
+                div.row.video-container
+                    div#player
+                    div.sr-only#movieID #{movieID}
+                    div.sr-only#movie_genre #{movieGenre}
+                div.row.ad-top-buffer.ad-window
+                    img.ad-show.side-window
+            div.col-md-5
+                div.side-container
+                    div.col-md-6
+                        div.user-model Available Ads:&nbsp
+                            span#ads-num.val
+                        div#all_chart.side-window
+                        div.user-model Name:&nbsp
+                        span#name.val #{user.name}
+                        div.sr-only#user_id #{user.id}
+                        //age view
+                        lable.checkbox
+                            input#age_check(type="checkbox" checked data-toggle="toggle")
+                            span.user-model &nbsp&nbspAge Range:&nbsp older than &nbsp
+                                span#age.val #{user.age}
+                        div#age_overlay.chartWithOverlay
+                            div#age_chart.chart
+                        //gender view
+                        lable.checkbox
+                            input#gender_check(type="checkbox" checked data-toggle="toggle")
+                            span.user-model &nbsp&nbspGender:&nbsp
+                                span#gender.val #{user.gender}
+                        div#gender_overlay.chartWithOverlay
+                            div#gender_chart.chart
+                        //lang view
+                        lable.checkbox
+                            input#lang_check(type="checkbox" checked data-toggle="toggle")
+                            span.user-model &nbsp&nbspLanguages:&nbsp
+                                span#lang.val #{user.languages}
+                        div#lang_overlay.chartWithOverlay
+                            div#lang_chart.chart
+                    div.col-md-6
+                        lable.checkbox
+                            input#person_check(type="checkbox" checked data-toggle="toggle")
+                            span#vis-personality.user-model.side-window &nbsp&nbspPersonality(Big5):
+                        div#openness-text.user-model Openness:&nbsp
+                            span#openness.val #{user.big5.openness}
+                        div#openness_overlay.chartWithOverlay
+                            div#openness_chart.per_chart
+                        div#agreeableness-text.user-model Agreeableness:&nbsp
+                            span#agreeableness.val #{user.big5.agreeableness}
+                        div#agreeableness_overlay.chartWithOverlay
+                            div#agreeableness_chart.per_chart
+                        div#conscientiousness-text.user-model Conscientiousness:&nbsp
+                            span#conscientiousness.val #{user.big5.conscientiousness}
+                        div#conscientiousness_overlay.chartWithOverlay
+                            div#conscientiousness_chart.per_chart
+                        div#extraversion-text.user-model Extraversion:&nbsp
+                            span#extraversion.val #{user.big5.extraversion}
+                        div#extraversion_overlay.chartWithOverlay
+                            div#extraversion_chart.per_chart
+                        div#emotion_range-text.user-model Emotion Range:&nbsp
+                            span#emotion_range.val #{user.big5.emotion_range}
+                        div#emotion_range_overlay.chartWithOverlay
+                            div#emotion_range_chart.per_chart
+
+
+    script(type='text/javascript', src='https://www.google.com/jsapi')
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(type='text/javascript', src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+    script(type='text/javascript', src='https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js')
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css')
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
+    script(type='text/javascript', src='js/youtube-player.js')
+    script(type='text/javascript', src='js/vis-controller.js')
+    link(rel='stylesheet', href='css/main.css')

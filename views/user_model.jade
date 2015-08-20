@@ -1,0 +1,101 @@
+//Created by jin on 27/05/15.
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title PARIS Ads Demo
+    body
+        div.page-header
+            div.container-fluid
+                div.row
+                    div.col-md-10
+                        a.home(href="/")
+                            img.logo(src='images/logo.png')
+                        span &nbsp&nbspAds Demo
+                    div.col-md-2
+                        a.btn.btn-primary(href='/logout')
+                            span.fa.fa-facebook
+                                |  Logout
+        div.container-fluid
+            div.row
+                div.col-md-9
+                    div.video-container
+                        div#player
+                        div.sr-only#movieID #{movieID}
+                        div.sr-only#movie_genre #{movieGenre}
+                div.col-md-3
+                    div.side-container
+                        h5 Advertisements
+                        img#ad-title.ad-show.side-window(title="We show this ad according to the video you are watching.")
+                        div.collapse-group
+                            a.btn.btn-default.btn-block.btn-xs(href='#')
+                                h5 Basic Information of Users
+                            div.collapse#user-model.side-window
+                                div#login_name.user-model Name:&nbsp
+                                    span#login_name-val.val #{user.facebook.name}
+                                div#age.user-model Age Range:&nbsp older than &nbsp
+                                    span#age-val.val #{user.facebook.age}
+                                    select#age-opt.opt
+                                        option --select age range--
+                                        option 18
+                                        option 30
+                                        option 35
+                                        option 40
+                                        option 50
+                                div#gender.user-model Gender:&nbsp
+                                    span#gender-val.val #{user.facebook.gender}
+                                    select#gender-opt.opt
+                                        option --select gender--
+                                        option male
+                                        option female
+                                        option unisex
+                                div#languages.user-model Languages:&nbsp
+                                    span#language-val.val #{user.facebook.languages}
+                                    select#language-opt.opt
+                                        option --select language--
+                                        option Dutch
+                                        option English
+                                        option German
+                                        option French
+                                        option Mandarin Chinese
+                        div.collapse-group
+                            a.btn.btn-default.btn-block.btn-xs(href='#')
+                                h5 Posted Data
+                            div.collapse#post-data.side-window #{user.facebook.allPost}
+                        div.collapse-group
+                            a.btn.btn-default.btn-block.btn-xs(href='#')
+                                h5 Your Personality
+                            div.collapse#data-personality.side-window
+                                div.results(style='display: none;')
+                                    div.well
+                                        div.summary-div
+                                        div.text-right(style='color: gray')
+                                            em.small *Compared to most people who participated in our surveys.
+                        div.collapse-group
+                            a.btn.btn-default.btn-block.btn-xs(href='#')
+                                h5 Visualization of Personality Data
+                            div.collapse#vis-personality.side-window
+                                input#slider(type="range" min="0" max="100" step="1")
+                                div.well#vizcontainer
+                        div.collapse-group
+                            a.btn.btn-default.btn-block.btn-xs(href='#')
+                                h5 Shared Data
+                            div.collapse#data-monitor.side-window We have used data about your #{user.facebook.permissions}
+
+
+    script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(type='text/javascript' src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+    script(type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js')
+    // Other js files
+    script(type='text/javascript', src='/js/demo.js')
+    script(type='text/javascript', src='/js/youtube-player.js')
+    script(type='text/javascript', src='/js/d3.v2.min.js')
+    script(type='text/javascript', src='/js/personality.js')
+    script(type='text/javascript', src='/js/textsummary.js')
+
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
+    link(rel='stylesheet', href='http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css')
+    // Other css files
+    link(rel='stylesheet', href='css/main.css')

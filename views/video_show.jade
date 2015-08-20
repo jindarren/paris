@@ -1,0 +1,71 @@
+//Created by jin on 27/05/15.
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title PARIS Ads Demo
+    body
+        div.page-header
+            div.container-fluid
+                div.row
+                    div.col-md-10
+                        a.home(href="/")
+                            img.logo(src='images/logo.png')
+                        h3 PARIS Ads Demo
+                    div.col-md-2
+                        a.btn.btn-primary(href='/auth/facebook')
+                            span.fa.fa-facebook
+                                |  Facebook
+        div.container-fluid
+            div.row
+                div.col-md-2
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-1.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-2.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-3.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-4.ad-show(src='images/advertise-here-1.jpg')
+                div.col-md-8
+                    div.video-container
+                        div#player
+                            div.sr-only#movieID #{movieID}
+                div.col-md-2
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-5.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-6.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-7.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-8.ad-show(src='images/advertise-here-1.jpg')
+            div.row
+
+        link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+        link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
+        script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+        script(type='text/javascript' src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+        script(type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js')
+        // Other js files
+        script(type='text/javascript' src='js/load-ad.js')
+        script(type='text/javascript', src='js/youtube-player.js')
+        // Other css files
+        link(rel='stylesheet', href='css/main.css')

@@ -1,0 +1,93 @@
+//Created by jin on 05/06/15.
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title PARIS Ads Demo
+    body
+        div.page-header
+            div.container-fluid
+                div.row
+                    div.col-md-10
+                        a.home(href="/")
+                            img.logo(src='images/logo.png')
+                        span &nbsp&nbspAds Demo
+                    div.col-md-2
+                        a.btn.btn-primary(href='/logout')
+                            span.fa.fa-facebook
+                                |  Logout
+                        div#login_name.user-model Welcome: #{user.facebook.name}
+        div.container-fluid
+            div.row
+                div.col-md-2
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-1.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-2.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-3.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-4.ad-show(src='images/advertise-here-1.jpg')
+                div.col-md-8
+                    h2.text-center.row.movieName
+                    div.row
+                        div.col-md-2.movieAttr Genres
+                        div.col-md-10.movieGenre
+                    div.row
+                        div.col-md-2.movieAttr Tags
+                        div.col-md-10.movieTag
+                    div.row
+                        div.col-md-2.movieAttr Overview
+                        div.col-md-10.movieDes
+                    div.row
+                        div.col-md-2.movieAttr Release Date
+                        div.col-md-10.releaseDate
+                    div.row.poster-player
+                div.col-md-2
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-5.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-6.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-7.ad-show(src='images/advertise-here-1.jpg')
+                    div.row.ad-top-buffer
+                        div.col-md-12
+                            a(href="")
+                                img#ad-8.ad-show(src='images/advertise-here-1.jpg')
+            div.row.ad-top-buffer
+                a.row.logged-watch.btn.btn-primary.btn-block.btn-lg(target="_blank")
+                    span| Watch v1
+                a.row.logged-watch-2.btn.btn-primary.btn-block.btn-lg(target="_blank")
+                    span| Watch v2
+                a.row.logged-watch-3.btn.btn-primary.btn-block.btn-lg(target="_blank")
+                    span| Watch v3
+
+        script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+        script(type='text/javascript' src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+        script(type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js')
+        link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+        link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
+        script(src='js/jquery.coverflow.js')
+        script(src='js/jquery.interpolate.js')
+        script(src='js/jquery.touchSwipe.min.js')
+        script(src='js/reflection.js')
+        // Other js files
+        script(type='text/javascript' src='js/login.js')
+        script(type='text/javascript' src='js/load-ad.js')
+        // Other css files
+        link(rel='stylesheet', href='css/main.css')

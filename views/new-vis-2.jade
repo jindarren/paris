@@ -1,0 +1,157 @@
+//Created by jin on 15/07/15.
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title PARIS Ads Demo
+    body
+        div.page-header.container-fluid
+                div.row
+                    div.col-md-10
+                        a.home(href="/")
+                            img.logo(src='images/logo.png')
+                        span &nbsp&nbspAds Demo
+                    div.col-md-2
+                        a.btn.btn-primary(href='/logout')
+                            span.fa.fa-facebook
+                                |  Logout
+                        a#expandbtn.btn.btn-default.btn-lg(type="button")
+                            span.glyphicon.glyphicon-menu-hamburger(aria-hidden="true")
+            div.container-fluid
+                div.col-md-10
+                    div.video-container
+                        div#player
+                        div.sr-only#movieID #{movieID}
+                        div.sr-only#movie_genre #{movieGenre}
+
+                div.col-md-2
+                    div.user-model Welcome&nbsp
+                        span#name.val #{user.name}
+                    div.row.ad-top-buffer.collapse-group
+                        a.btn.btn-default.btn-block.btn-xs(href='#')
+                            h5 Who I am?
+                        div.collapse.side-window
+                            p(style="color:#0052CC") The profile is generated from your Facebook data.
+                            p#movie-text
+                                span You are watching movies of&nbsp
+                                span#movie-value.value #{movieGenre}.
+                            p#age-text
+                                span You are older than&nbsp
+                                span#age-value.value #{user.age}.
+                            p#gedner-text
+                                span You are&nbsp
+                                span#gender-value.value #{user.gender}.
+                            p#lang-text
+                                span You speak&nbsp
+                                span#lang-value.value #{user.languages}.
+                            p#person-text
+                                span You are
+                                span#person-value.value #{user.ibmPersonality.substring(7)}
+
+                    div.sr-only#user_id #{user.id}
+                    div.row.ad-top-buffer.ad-window
+                        img.ad-show.side-window
+                    div.row.ad-top-buffer.collapse-group.ad-explanation(style="display:none")
+                        a.btn.btn-default.btn-block.btn-xs(href='#')
+                            h5 Why I get this Ad?
+                        div.collapse.side-window
+                            p#movie-text
+                                span#movie-percent.percent
+                                span &nbspad viewers are watching movies of&nbsp
+                                span#movie-value.value #{movieGenre}.
+                            p#age-text
+                                span#age-percent.percent
+                                span &nbspad viewers are older than&nbsp
+                                span#age-value.value #{user.age}.
+                            p#gedner-text
+                                span#gender-percent.percent
+                                span &nbspad viewers are&nbsp
+                                span#gender-value.value #{user.gender}.
+                            p#lang-text
+                                span#lang-percent.percent
+                                span &nbspad viewers speak&nbsp
+                                span#lang-value.value #{user.languages}.
+                            p#person-text
+                                span#person-percent.percent
+                                span &nbspad viewers are
+                                span#person-value.value #{user.ibmPersonality.substring(7)}
+                div.col-md-2
+                    div.side-container(style="display:none")
+                        div.user-model Available Ads:&nbsp
+                        span#ads-num.val
+                        div#all_chart-2.side-window
+                        //age view
+                        hr.split
+                        div.user-model
+                            input#age-check(type="checkbox", checked="true")
+                            label &nbspAge Range:&nbsp older than &nbsp
+                                span#age.val #{user.age}
+                            div#age-slider
+                            canvas#age-canvas.canvas
+                        //gender view
+                        hr.split
+                        div.user-model Gender:&nbsp
+                            span#gender.sr-only.val #{user.gender}
+                        div#gender-check
+                            input#female.gender-box(type="checkbox")
+                            label(for="female") &nbspFemale&nbsp&nbsp
+                            input#male.gender-box(type="checkbox")
+                            label(for="male") &nbspMale&nbsp&nbsp
+                            input#unisex.gender-box(type="checkbox")
+                            label(for="unisex") &nbspUnisex&nbsp&nbsp
+                        //lang view
+                        hr.split
+                        div.user-model Languages:&nbsp
+                            span#lang.sr-only.val #{user.languages}
+                        div#lang-check
+                            input#dutch.lang-box(type="checkbox")
+                            label(for="dutch") &nbspDutch&nbsp&nbsp
+                            input#english.lang-box(type="checkbox")
+                            label(for="english") &nbspEnglish&nbsp&nbsp
+                            br
+                            input#french.lang-box(type="checkbox")
+                            label(for="french") &nbspFrench&nbsp&nbsp
+                            input#german.lang-box(type="checkbox")
+                            label(for="german") &nbspGerman&nbsp&nbsp
+                            br
+                            input.lang-box(id="mandarin", type="checkbox")
+                            label(for="mandarin") &nbspMandarin Chinese&nbsp&nbsp
+                        hr.split
+                        div#vis-personality.user-model.side-window
+                            input#person-check(type="checkbox", checked="true")
+                            span &nbspPersonality(Big5):&nbsp
+                            div#openness-text.val Openness:&nbsp
+                                span#openness #{user.big5.openness}
+                            div#openness-slider.per-slider
+                            canvas#openness-canvas.canvas
+                            div#agreeableness-text.val Agreeableness:&nbsp
+                                span#agreeableness #{user.big5.agreeableness}
+                            div#agreeableness-slider.per-slider
+                            canvas#agreeableness-canvas.canvas
+                            div#conscientiousness-text.val Conscientiousness:&nbsp
+                                span#conscientiousness #{user.big5.conscientiousness}
+                            div#conscientiousness-slider.per-slider
+                            canvas#conscientiousness-canvas.canvas
+                            div#extraversion-text.val Extraversion:&nbsp
+                                span#extraversion #{user.big5.extraversion}
+                            div#extraversion-slider.per-slider
+                            canvas#extraversion-canvas.canvas
+                            div#emotion_range-text.val Emotion range:&nbsp
+                                span#emotion_range #{user.big5.emotion_range}
+                            div#emotion_range-slider.per-slider
+                            canvas#emotion_range-canvas.canvas
+
+    script(type='text/javascript', src='https://www.google.com/jsapi')
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(type='text/javascript', src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+    script(type='text/javascript', src='https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js')
+    script(type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js')
+
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css')
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
+    link(rel='stylesheet', href='http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css')
+    script(type='text/javascript', src='js/youtube-player.js')
+    script(type='text/javascript', src='js/vis-controller-2.js')
+    link(rel='stylesheet', href='css/main.css')
